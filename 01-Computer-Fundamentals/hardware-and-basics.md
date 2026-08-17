@@ -23,4 +23,5 @@ This documentation serves as a practical knowledge base covering essential hardw
 
 PC Hardware Diagram
 
-<img width="1264" height="842" alt="Gemini_Generated_Image_27fnvd27fnvd27fn" src="https://github.com/user-attachments/assets/e3ddce66-7c85-4c22-bae2-a941276b89cf" />
+<img width="1024" height="682" alt="image" src="https://github.com/user-attachments/assets/56d41eb5-6b65-49ec-a7df-8130841f1e2d" />
+
