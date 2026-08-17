@@ -1,2 +1,26 @@
-<img width="1264" height="842" alt="Gemini_Generated_Image_27fnvd27fnvd27fn" src="https://github.com/user-attachments/assets/6e1769ea-6642-4c94-bd7e-c45319f484e8" />
-Understanding computer hardware is essential for grasping how software interacts with physical components. This documentation provides a breakdown of core PC components, their specific roles, and how they function together to build a complete system.
+# 💻 Hardware Architecture & System Fundamentals for Cybersecurity
+
+Welcome to my hardware documentation repository. As a First-Year Computer Engineering student specializing in Cybersecurity, I created this project to document my learning journey, technical research, and practical insights.
+
+This documentation serves as a practical knowledge base covering essential hardware components, their interconnections, and their relevance to system performance and security operations.
+
+---
+
+## 📌 Table of Contents
+1. [Overview & System Architecture](#overview--system-architecture)
+2. [Core Hardware Components](#core-hardware-components)
+   - [Motherboard (Anakart)](#1-motherboard-anakart)
+   - [CPU (Central Processing Unit)](#2-cpu-central-processing-unit)
+   - [RAM (Random Access Memory)](#3-ram-random-access-memory)
+   - [Storage (SSD / HDD)](#4-storage-ssd--hdd)
+   - [GPU (Graphics Processing Unit)](#5-gpu-graphics-processing-unit)
+   - [PSU & Cooling Systems](#6-psu--cooling-systems)
+3. [Security & Forensics Perspective](#security--forensics-perspective)
+
+---
+
+## ⚙️ Core Hardware Components
+
+PC Hardware Diagram
+
+<img width="1264" height="842" alt="Gemini_Generated_Image_27fnvd27fnvd27fn" src="https://github.com/user-attachments/assets/e3ddce66-7c85-4c22-bae2-a941276b89cf" />
