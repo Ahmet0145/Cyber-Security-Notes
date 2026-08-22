@@ -60,7 +60,7 @@ The Central Processing Unit (CPU) is often considered the "brain" of the compute
 * **Hardware Virtualization:** Modern CPUs provide hardware-assisted virtualization (e.g., Intel VT-x, AMD-V), which is essential for running isolated Virtual Machines (Sandboxes) to safely analyze untrusted files.
  ---
 
-## 🖥️ 3. RAM (Random Access Memory)
+## 💾 3. RAM (Random Access Memory)
 
 <img width="1264" height="842" alt="Gemini_Generated_Image_" src="https://github.com/user-attachments/assets/1a6395b1-f6e3-4957-94ef-c74005742a40" />
 
