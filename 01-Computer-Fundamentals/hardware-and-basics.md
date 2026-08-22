@@ -46,7 +46,7 @@ The motherboard is the primary printed circuit board (PCB) inside a computer sys
 * **First Line of Control (BIOS/UEFI):** The motherboard contains the BIOS/UEFI software, which powers on the system before the Operating System loads. Setting a strong BIOS password prevents unauthorized users from changing boot settings.
 * **Physical Security:** Because the motherboard holds all vital components, physical security is critical. If an attacker gets direct physical access to the motherboard, they can manipulate hardware or steal storage devices.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<a id="2-cpu-central-processing-unit"></a>
 ## ⚙️ 2. CPU (Central Processing Unit)
 
 <img width="1407" height="768" alt="Gemini_Generated_Image_jixao1jixao1jixa" src="https://github.com/user-attachments/assets/a2b7aecd-5401-4b24-b273-2110c2daf5e8" />
