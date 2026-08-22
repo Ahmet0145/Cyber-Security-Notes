@@ -37,6 +37,20 @@ A **Hypervisor** (Virtual Machine Monitor) is the specialized software layer res
 
 Modern application deployment utilizes two distinct levels of virtualization:
 
+```
++-------------------------------------------------------------+
+|                       PHYSICAL SERVER                       |
++-------------------------------------------------------------+
+|                          HYPERVISOR                         |
++------------------------------+------------------------------+
+|      VIRTUAL MACHINE A       |      VIRTUAL MACHINE B       |
+|  (Full OS + Kernel + Apps)   |   +-----------------------+  |
+|                              |   |    CONTAINER ENGINE   |  |
+|                              |   +-----------+-----------+  |
+|                              |   | App Alpha | App Beta  |  |
++------------------------------+---+-----------+-----------+--+
+```
+
 ### 1. Virtual Machines (Full Virtualization)
 * Packaging includes a complete Guest Operating System, its own kernel, system binaries, and virtual hardware allocation.
 * Provides **heavy isolation** but requires higher storage, boot time, and resource allocation.
