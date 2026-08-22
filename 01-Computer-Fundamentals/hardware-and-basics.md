@@ -8,7 +8,7 @@ This documentation serves as a practical knowledge base covering essential hardw
 
 ## 📌 Table of Contents
 
-A- [Overview & System Architecture](#overview--system-architecture)<br>
+A- [Overview & System Architecture](#section-a)<br>
 B- [Core Hardware Components](#-1-motherboard)
   * [Motherboard](#-1-motherboard)
   * [CPU (Central Processing Unit)](#-2-cpu-central-processing-unit)
@@ -23,8 +23,8 @@ C- [Boot Process (What Happens When You Press Start?)](#boot-process-what-happen
 D- [Security & Forensics Perspective](#security--forensics-perspective)
 
 ---
-
-# A-💻 Computer Hardware & Security Fundamentals
+<a id="section-a"></a>
+# A-💻 Computer Hardware & Security Fundamentals 
 
 <img width="1024" height="682" alt="image" src="https://github.com/user-attachments/assets/56d41eb5-6b65-49ec-a7df-8130841f1e2d" />
 
