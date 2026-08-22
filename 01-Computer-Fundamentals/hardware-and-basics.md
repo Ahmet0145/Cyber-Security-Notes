@@ -34,7 +34,7 @@ Computer hardware consists of the physical, tangible components that make up a c
 Above is an overview of the key internal hardware components that form a modern PC system. Let's examine each of these components one by one!
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🖥️ 1. [Motherboard](#1-motherboard)
+## 💻 1. [Motherboard](#1-motherboard)
 
 <img width="1407" height="768" alt="Gemini_Generated_Image_g60v8jg60v8jg60v" src="https://github.com/user-attachments/assets/1d6b49e0-be5f-4dbf-a903-27a1a5c8426d" />
 
