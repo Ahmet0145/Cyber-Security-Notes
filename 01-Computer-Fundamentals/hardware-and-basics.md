@@ -10,7 +10,7 @@ This documentation serves as a practical knowledge base covering essential hardw
 
 A- [Overview & System Architecture](#overview--system-architecture)<br>
 B- [Core Hardware Components](#core-hardware-components)
-  * [Motherboard](#1-motherboard)
+  * [Motherboard](#-1-motherboard)
   * [CPU (Central Processing Unit)](#2-cpu-central-processing-unit)
   * [RAM (Random Access Memory)](#3-ram-random-access-memory)
   * [Storage (SSD / HDD)](#4-storage-ssd--hdd)
@@ -34,7 +34,7 @@ Computer hardware consists of the physical, tangible components that make up a c
 Above is an overview of the key internal hardware components that form a modern PC system. Let's examine each of these components one by one!
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 💻 1. Motherboard(#1-motherboard)
+## 💻 1. Motherboard
 
 <img width="1407" height="768" alt="Gemini_Generated_Image_g60v8jg60v8jg60v" src="https://github.com/user-attachments/assets/1d6b49e0-be5f-4dbf-a903-27a1a5c8426d" />
 
