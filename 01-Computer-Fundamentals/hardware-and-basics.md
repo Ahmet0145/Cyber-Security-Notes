@@ -19,8 +19,8 @@ B- [Core Hardware Components](#-1-motherboard)
   * [Network Adapter (NIC / Wi-Fi)](#-7-network-adapter-nic--wi-fi)
   * [Input/Output (I/O) Devices](#-8-inputoutput-io-devices)
 
-C- [Boot Process (What Happens When You Press Start?)](#boot-process-what-happens-when-you-press-start)<br>
-D- [Security & Forensics Perspective](#security--forensics-perspective)
+C- [Boot Process (What Happens When You Press Start?)](#section-c)<br>
+D- [Security & Forensics Perspective](#section-d)
 
 ---
 <a id="section-a"></a>
@@ -158,7 +158,7 @@ Common connection interfaces for these peripherals include **USB**, **HDMI**, an
 * **Display & Peripheral Eavesdropping:** External monitors and audio devices can be targeted for unauthorized screen capture, shoulder surfing, or audio interception to gather sensitive credentials and data.
 
 ---
-
+<a id="section-c"></a>
 ## 🚀 C-Boot Process (What Happens When You Press Start?)
 
 Now that the core components are installed in the computer system, it is time to boot up the system. We can compare this to how we wake up in the morning and do a quick check to see if everything is working. Only when everything is OK, do we get up and start our day. The diagram below shows the steps a computer system goes through before it shows you a working interface in the form of an Operating System.
@@ -182,7 +182,7 @@ Step 4: Select Boot Device: After POST succeeds, the system determines where to 
 Step 5: Initiate Bootloader: Once the boot device is selected, the UEFI initializes the device's Bootloader. The bootloader transfers the Operating System files into Random Access Memory (RAM) and officially hands full hardware control over to the OS.
 
 ---
-
+<a id="section-d"></a>
 ## 🛡️ D-Security & Forensics Perspective
 
 Understanding core hardware components is essential for both defensive cybersecurity operations and digital forensics investigations. Physical components directly dictate how data is stored, processed, and preserved during an incident response.
