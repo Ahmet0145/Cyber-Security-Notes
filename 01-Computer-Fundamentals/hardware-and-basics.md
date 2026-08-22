@@ -15,7 +15,7 @@ B- [Core Hardware Components](#core-hardware-components)
   * [RAM (Random Access Memory)](#-3-ram-random-access-memory)
   * [Storage (SSD / HDD)](#-4-storage-ssd--hdd)
   * [GPU (Graphics Processing Unit)](#-5-gpu-graphics-processing-unit)
-  * [PSU](#6-psu)
+  * [Power Supply Unit (PSU)](#-6-power-supply-unit-psu)
   * [Network Adapter (NIC / Wi-Fi)](#-7-network-adapter-nic--wi-fi)
   * [Input/Output (I/O) Devices](#-8-inputoutput-io-devices)
 
@@ -142,7 +142,7 @@ Just as we use our vocal cords to communicate with our environment, a network ad
 
 ---
 
-## ⌨️ 8. Input / Output (I/O) Devices
+## ⌨️ 8. Input/Output (I/O) Devices
 
 <img width="1408" height="768" alt="Gemini_Generated_Image_fnbo2bfnbo2bfnbo" src="https://github.com/user-attachments/assets/a430ee8c-59da-454a-a6bd-10e72fdfce23" />
 
