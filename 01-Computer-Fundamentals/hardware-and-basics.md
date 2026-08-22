@@ -142,7 +142,7 @@ Just as we use our vocal cords to communicate with our environment, a network ad
 
 ---
 
-## ⌨️ 8. Input/Output (I/O) Devices
+## 🔌 8. Input/Output (I/O) Devices
 
 <img width="1408" height="768" alt="Gemini_Generated_Image_fnbo2bfnbo2bfnbo" src="https://github.com/user-attachments/assets/a430ee8c-59da-454a-a6bd-10e72fdfce23" />
 
