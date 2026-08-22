@@ -9,7 +9,7 @@ This documentation serves as a practical knowledge base covering essential hardw
 ## 📌 Table of Contents
 
 A- [Overview & System Architecture](#overview--system-architecture)<br>
-B- [Core Hardware Components](#core-hardware-components)
+B- [Core Hardware Components](#-1-motherboard)
   * [Motherboard](#-1-motherboard)
   * [CPU (Central Processing Unit)](#-2-cpu-central-processing-unit)
   * [RAM (Random Access Memory)](#-3-ram-random-access-memory)
