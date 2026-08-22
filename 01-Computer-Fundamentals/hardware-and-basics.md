@@ -10,14 +10,14 @@ This documentation serves as a practical knowledge base covering essential hardw
 
 A- [Overview & System Architecture](#overview--system-architecture)<br>
 B- [Core Hardware Components](#core-hardware-components)
-  * [Motherboard](#-1-motherboard)
-  * [CPU (Central Processing Unit)](#-2-cpu-central-processing-unit)
-  * [RAM (Random Access Memory)](#-3-ram-random-access-memory)
-  * [Storage (SSD / HDD)](#-4-storage-ssd--hdd)
-  * [GPU (Graphics Processing Unit)](#-5-gpu-graphics-processing-unit)
-  * [Power Supply Unit (PSU)](#-6-power-supply-unit-psu)
-  * [Network Adapter (NIC / Wi-Fi)](#-7-network-adapter-nic--wi-fi)
-  * [Input/Output (I/O) Devices](#-8-inputoutput-io-devices)
+  * [Motherboard](#1-motherboard)
+  * [CPU (Central Processing Unit)](#2-cpu-central-processing-unit)
+  * [RAM (Random Access Memory)](#3-ram-random-access-memory)
+  * [Storage (SSD / HDD)](#4-storage-ssd--hdd)
+  * [GPU (Graphics Processing Unit)](#5-gpu-graphics-processing-unit)
+  * [Power Supply Unit (PSU)](#6-power-supply-unit-psu)
+  * [Network Adapter (NIC / Wi-Fi)](#7-network-adapter-nic--wi-fi)
+  * [Input/Output (I/O) Devices](#8-inputoutput-io-devices)
 
 C- [Boot Process (What Happens When You Press Start?)](#boot-process-what-happens-when-you-press-start)<br>
 D- [Security & Forensics Perspective](#security--forensics-perspective)
