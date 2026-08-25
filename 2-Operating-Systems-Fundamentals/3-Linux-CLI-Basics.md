@@ -4,13 +4,13 @@
 
 You just joined the Cyber Operations Support Team (SOC) as a Junior Analyst. Today was supposed to be your onboarding day with a guided tour of the tools and systems. However, cyber operations rarely go according to plan.
 
-Your supervisor had to leave abruptly to handle an ongoing high-severity incident. Before running out the door, they left a yellow sticky note on your monitor:
+Your team leader had to leave abruptly to handle an ongoing high-severity incident. Before running out the door, they left a yellow sticky note on your monitor:
 
-> **[SUPERVISOR NOTE]**  
-> *Welcome to the team! I didn't have time to walk you through everything, but you'll pick up the details quickly.*  
-> *Most of our daily security work happens directly inside the **Linux Terminal**. I've set up a few basic tasks on the system to help you get comfortable.*  
-> *Start by opening the terminal, exploring the filesystem, and finding the file named `mission_brief.txt`.*  
-> *Good luck!*
+> **[TEAM LEADER NOTE]**
+> *Welcome aboard! I had to step away abruptly to support an active threat response, so I couldn't brief you in person.*
+> *Our day-to-day security operations rely heavily on the **Linux Command Line**. I've placed a few initial tasks on your system to help you hit the ground running.*
+> *Fire up your terminal, navigate through the filesystem, and locate the `mission_brief.txt` file to get started.*
+> *Best of luck!*
 
 ---
 
