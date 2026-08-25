@@ -1,4 +1,4 @@
-# 💻 1. Operating System (OS) Basics
+# Operating System (OS) Basics
 
 ## 🎯 What is an Operating System?
 An **Operating System (OS)** is the core software layer that coordinates and manages all software and hardware components on a computer. It sits directly between the user, applications, and physical hardware, functioning as the central manager that unifies the system.
