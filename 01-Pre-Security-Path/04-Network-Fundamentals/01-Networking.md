@@ -20,9 +20,9 @@ The **Internet** is a massive, global network composed of billions of smaller in
 * **Private Network:** A restricted network where connected devices communicate directly with one another inside a localized environment (e.g., a home Wi-Fi network or an office network).
 * **Public Network (The Internet):** An open, global network infrastructure that connects distinct private networks together, allowing data transfer across the world.
 ```
-+-------------------+                   +-------------------+
++-------------------+                      +-------------------+
 | Private Network 1 | <---> INTERNET <---> | Private Network 2 |
-+-------------------+   (Public Network) +-------------------+
++-------------------+   (Public Network)   +-------------------+
 ```
 
 ---
