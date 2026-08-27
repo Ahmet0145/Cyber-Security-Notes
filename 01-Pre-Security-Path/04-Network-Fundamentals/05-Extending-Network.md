@@ -98,5 +98,3 @@ Analyzing layer protocols and packet behaviors helps identify attack vectors and
 * **UDP Abuse & Amplification:** Because UDP operates without connection handshakes (stateless), malicious actors frequently spoof target IP addresses when querying public UDP-based services (such as open DNS resolvers or NTP servers), redirecting amplified payload responses to crush victim targets.
 * **Cleartext Inspection & Traffic Sniffing:** Legacy protocol implementations—such as unencrypted HTTP (80) or FTP (21)—allow internal or adversary network sniffers (e.g., Wireshark) to capture session identifiers, sensitive administrative payloads, and authentication hashes directly off the wire.
 * **Stateful vs. Stateless Inspection:** Security controls utilize **Stateless Firewalls** to quickly parse static packet parameters (source/destination IP, port rules) for bulk traffic filtering, while **Stateful Firewalls** inspect full protocol sessions and handshake states to block anomalous or out-of-sequence network packets.
-
----
