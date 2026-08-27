@@ -68,6 +68,8 @@ Ports are numerical identifiers (0–65535) used to route network traffic to the
 | **SMB** | 445 | Server Message Block. Used for file/printer sharing (frequent target for lateral movement). |
 | **RDP** | 3389 | Remote Desktop Protocol. GUI-based remote system access. |
 
+---
+
 ## 🛡️ 5. Security & Forensics Perspective
 
 Analyzing layer protocols and packet behaviors helps identify attack vectors and perform traffic forensics:
