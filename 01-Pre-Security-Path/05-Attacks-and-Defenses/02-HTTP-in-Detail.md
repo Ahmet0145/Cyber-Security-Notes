@@ -170,3 +170,14 @@ Client                                                   Server
 2. **Authentication / Form Input:** The client submits credentials or identifying information via a `POST` request.
 3. **Session Issuance:** The server verifies the input and issues a `Set-Cookie` header containing a unique session identifier or token.
 4. **State Persistence:** Subsequent HTTP requests automatically attach the `Cookie` header, allowing the server to recognize the client identity and maintain authentication status.
+
+---
+
+## 🛡️ 7. Security & Forensics Perspective
+
+Understanding web request dynamics, headers, and cookie handling is essential for web security analysis and forensic investigations:
+
+* **Man-in-the-Middle (MitM) & Sniffing:** Standard unencrypted HTTP traffic sends request paths, headers, sensitive form data, and session cookies in cleartext. Attackers listening on the network path can easily intercept or tamper with unencrypted data. HTTPS mitigates this risk by encrypting communication via TLS/SSL.
+* **Session Hijacking:** Since cookies store authentication tokens, capturing an active session cookie (via network sniffing or Cross-Site Scripting / XSS) enables an attacker to impersonate the user without needing their password.
+* **Information Disclosure via Headers:** The `Server` and `X-Powered-By` response headers frequently leak exact software names and version numbers (e.g., `Server: nginx/1.15.8`). Threat actors leverage this data during reconnaissance to search for known unpatched vulnerabilities (CVEs).
+* **URL Parameter Exposure & Sensitive Data Leakage:** Credentials or sensitive tokens passed inside the URL query string (such as `http://user:password@...` or `?token=...`) are routinely saved in plaintext inside browser histories, proxy logs, and server access logs, creating a major security risk.
