@@ -30,7 +30,7 @@ This repository serves as a structured knowledge base covering computer hardware
 This project incorporates concepts, learning paths, and technical frameworks gathered from the following sources:
 
 * **Educational Content & Curriculum:** 
-  - **[TryHackMe](https://tryhackme.com/)** – Pre-Security, Cyber Security 101, and Network Fundamentals Learning Paths.
+  - **[TryHackMe](https://tryhackme.com/)** – Pre-Security, Cyber Security 101.
   - Computer Engineering coursework & independent technical documentation.
 
 * **Visual Assets & Diagrams:** 
