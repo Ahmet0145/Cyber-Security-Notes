@@ -30,3 +30,11 @@ Each vulnerability note strictly adheres to the following layout:
 - **Attack Scenarios & Proof of Concept (PoC)**
 - **Practical Labs** (PortSwigger Web Security Academy / TryHackMe)
 - **Remediation & Secure Coding Guidelines**
+
+---
+
+## 🔗 Official References & Resources
+
+- [OWASP Top 10 Official Documentation](https://top10.owasp.org/)
+- [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
