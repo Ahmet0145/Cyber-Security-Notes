@@ -8,7 +8,7 @@ This repository houses comprehensive technical documentation, attack vectors, re
 
 | Code | Risk Category | Reference Document |
 | :---: | :--- | :--- |
-| **A00** | **OWASP Overview & Risk Rating Methodology** | [`OWASP-Overview-and-Risk-Rating.md`](./OWASP-Overview-and-Risk-Rating.md) |
+| **A00** | **OWASP Overview & Risk Rating Methodology** | [`OWASP-Overview-and-Risk-Rating.md`](./00-OWASP-Overview-and-Risk-Rating.md) |
 | **A01:2025** | **Broken Access Control** | [`A01-Broken-Access-Control.md`](./A01-Broken-Access-Control.md) |
 | **A02:2025** | **Security Misconfiguration** | [`A02-Security-Misconfiguration.md`](./A02-Security-Misconfiguration.md) |
 | **A03:2025** | **Software Supply Chain Failures** | [`A03-Software-Supply-Chain-Failures.md`](./A03-Software-Supply-Chain-Failures.md) |
