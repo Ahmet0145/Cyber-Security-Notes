@@ -43,3 +43,24 @@ The application relies on "Security through Obscurity" by assigning a randomized
 
 #### 📸 Proof of Completion
 ![Unpredictable URL Lab Solved](./assets/lab2-unpredictable-url.png)
+
+### 3. Lab: User role controlled by request parameter
+
+- **Platform:** PortSwigger Web Security Academy
+- **Difficulty:** Apprentice
+- **Target Goal:** Bypass access controls via cookie manipulation to access `/admin` and delete user `carlos`.
+
+#### 🎯 Vulnerability Analysis
+The application relies on a client-side modifiable HTTP cookie (`Admin=false`) to determine user privilege levels instead of validating the user's role securely on the server side or using cryptographically signed tokens (e.g., JWT, HMAC).
+
+#### 🚀 Proof of Concept (PoC) & Exploitation Steps
+1. Attempted direct navigation to `/admin` and observed access denial.
+2. Logged in using the provided standard user credentials (`wiener:peter`).
+3. Intercepted the HTTP authentication response using Burp Suite Proxy.
+4. Identified the `Set-Cookie: Admin=false` header in the HTTP response.
+5. Tampered with the cookie value by changing `Admin=false` to `Admin=true`.
+6. Navigated to `/admin` with the manipulated cookie, successfully gaining administrator access to delete user `carlos`.
+
+#### 📸 Proof of Completion
+![User Role Controlled by Request Parameter Solved](./assets/lab3-cookie-role-control.png)
+
