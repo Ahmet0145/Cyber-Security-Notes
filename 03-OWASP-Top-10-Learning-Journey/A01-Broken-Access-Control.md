@@ -85,6 +85,9 @@ The application suffers from a mass assignment flaw where the backend blindly bi
 5. Resent the modified HTTP POST request and verified in the response that `roleid` successfully updated to `2`.
 6. Navigated directly to `/admin` and executed the administrative function to delete user `carlos`.
 
+#### 📸 Proof of Completion
+![User role modified in profile Solved](./assets/lab4-roleid-json-manipulation.png)
+
 ---
 
 ### 5. Lab: URL-based access control can be circumvented
@@ -105,5 +108,4 @@ The infrastructure utilizes a front-end system (e.g., reverse proxy or WAF) to b
 
 #### 📸 Proof of Completion
 ![URL-based Access Control Circumvented Solved](./assets/lab5-url-access-control-bypass.png)
-#### 📸 Proof of Completion
-![User role modified in profile Solved](./assets/lab4-roleid-json-manipulation.png)
+
