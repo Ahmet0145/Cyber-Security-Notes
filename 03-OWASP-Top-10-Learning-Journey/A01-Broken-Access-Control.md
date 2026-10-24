@@ -85,5 +85,25 @@ The application suffers from a mass assignment flaw where the backend blindly bi
 5. Resent the modified HTTP POST request and verified in the response that `roleid` successfully updated to `2`.
 6. Navigated directly to `/admin` and executed the administrative function to delete user `carlos`.
 
+---
+
+### 5. Lab: URL-based access control can be circumvented
+
+- **Platform:** PortSwigger Web Security Academy
+- **Difficulty:** Practitioner
+- **Target Goal:** Circumvent front-end URL access controls using custom HTTP override headers to access `/admin` and delete user `carlos`.
+
+#### 🎯 Vulnerability Analysis
+The infrastructure utilizes a front-end system (e.g., reverse proxy or WAF) to block external access to specific URL paths such as `/admin`. However, the back-end web framework supports HTTP request routing override headers like `X-Original-URL`. Because the front-end fails to validate or strip custom routing headers, an attacker can send requests to an allowed path (`/`) while forcing the back-end framework to process the internal route (`/admin`).
+
+#### 🚀 Proof of Concept (PoC) & Exploitation Steps
+1. Attempted direct HTTP access to `/admin` and observed an immediate access block from the front-end system.
+2. Sent the HTTP request to Burp Repeater and changed the request line target path to `/`.
+3. Injected the custom HTTP header `X-Original-URL: /invalid` and confirmed that the back-end returned a 404 Not Found response, proving header parsing support.
+4. Updated the header value to `X-Original-URL: /admin` and successfully loaded the administrator dashboard.
+5. Constructed the account deletion request by targeting `/?username=carlos` on the request line while setting `X-Original-URL: /admin/delete`, successfully deleting user `carlos`.
+
+#### 📸 Proof of Completion
+![URL-based Access Control Circumvented Solved](./assets/lab5-url-access-control-bypass.png)
 #### 📸 Proof of Completion
 ![User role modified in profile Solved](./assets/lab4-roleid-json-manipulation.png)
