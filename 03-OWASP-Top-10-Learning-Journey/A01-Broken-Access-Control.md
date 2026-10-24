@@ -44,6 +44,8 @@ The application relies on "Security through Obscurity" by assigning a randomized
 #### 📸 Proof of Completion
 ![Unpredictable URL Lab Solved](./assets/lab2-unpredictable-url.png)
 
+---
+
 ### 3. Lab: User role controlled by request parameter
 
 - **Platform:** PortSwigger Web Security Academy
@@ -64,3 +66,24 @@ The application relies on a client-side modifiable HTTP cookie (`Admin=false`) t
 #### 📸 Proof of Completion
 ![User Role Controlled by Request Parameter Solved](./assets/lab3-cookie-role-control.png)
 
+---
+
+### 4. Lab: User role can be modified in user profile
+
+- **Platform:** PortSwigger Web Security Academy
+- **Difficulty:** Apprentice
+- **Target Goal:** Escalate privileges by tampering with profile JSON parameters, gain access to `/admin`, and delete user `carlos`.
+
+#### 🎯 Vulnerability Analysis
+The application suffers from a mass assignment flaw where the backend blindly binds untrusted JSON request parameters directly to the user model during profile update operations. Because authorization checks do not filter restricted parameters, an attacker can append administrative fields (`"roleid": 2`) to elevate their privilege level.
+
+#### 🚀 Proof of Concept (PoC) & Exploitation Steps
+1. Logged in using the provided credentials (`wiener:peter`) and accessed the account details page.
+2. Triggered an email update request and intercepted the HTTP traffic in Burp Suite.
+3. Observed that the server response returned account metadata including `"roleid": 1`.
+4. Forwarded the email submission request to Burp Repeater and added `"roleid": 2` into the JSON payload body.
+5. Resent the modified HTTP POST request and verified in the response that `roleid` successfully updated to `2`.
+6. Navigated directly to `/admin` and executed the administrative function to delete user `carlos`.
+
+#### 📸 Proof of Completion
+![User role modified in profile Solved](./assets/lab4-roleid-json-manipulation.png)
